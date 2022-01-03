@@ -1,3 +1,4 @@
+/* This are HTML tags section */
 body{
     margin: 0;
     background-color: #eaf6f6;
@@ -27,18 +28,21 @@ h4{
 h5{
     margin-bottom: 0px;
 }
-.purple-highlight{
-    color: purple;
+p{
+    color: dimgray;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    height: 1px;
+section{
+    height: 500px;
 }
-.half-width img{
+/* This are class section */
+.bottom-banner{
     width: 100%;
+    background-image: url(images/footer-bg.png);
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
 }
 .button-link{
     text-decoration: none;
@@ -49,51 +53,72 @@ h5{
     color: rgb(24, 15, 15);
     font-weight: 700;
 }
-.top-banner{
-    padding:250px;
-    background-image: url(images/header-bg.png);
+.button-link2{
+    text-decoration: none;
+    border-radius: 1em;
+    box-sizing:inherit;
+    width: 25%;
+    margin:0 auto 12%;
+    background-color: rgb(196, 71, 148);
+    padding: 10px 20px;
+    color: rgb(24, 15, 15);
+    font-weight: 700;
+    padding-right: 0%;
+    text-align: center;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 1px;
+}
+.half-width2{
+    width: 100%;
+    margin:50px auto 0;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width2 img{
+    width: 100%;
+    padding: 7px;
+}
+.letest-work{
+    background-image: url(images/latest-work-bg.png);
+    padding: 50px 250px 0px;
 }
 .mid-banner{
     padding:250px;
     padding-top: 50px;
      background-image: url(images/biography-bg.png);
 }
-.letest-work{
-    width: 100%;
-    background-image: url(images/latest-work-bg.png);
-    padding-top: 50px;
+.purple-highlight{
+    color: purple;
 }
-.work-img{
-    padding-left: 15%;
+.top-banner{
+    padding:220px;
+    background-image: url(images/header-bg.png);
 }
-section{
-    height: 500px;
-
+.work-img-1{
+    display: inline-block;
+    width: 31%;
+    height: 60px;
+}
+.work-img-2{
+    display: inline-block;
+    width: 31%;
+    height: 60px;
+}
+.work-img-3{
+    display: inline-block;
+    width: 31%;
+    height: 60px;
 }
 .work-center{
     text-align: center;
+
+
 }
-.bottom-banner{
-    width: 100%;
-    background-image: url(images/footer-bg.png);
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-}
-p{
-    color: dimgray;
-    margin-top: 0px;
-    margin-bottom: 40px;
-}
-.button-link2{
-    text-decoration: none;
-    border-radius: 1em;
-    box-sizing:inherit;
-    width: 33%;
-    margin-left: 33%;
-    margin-bottom: 12%;
-    background-color: rgb(196, 71, 148);
-    padding: 10px 20px;
-    color: rgb(24, 15, 15);
-    font-weight: 700;
-}
+/*     margin:  16px;
+ */
